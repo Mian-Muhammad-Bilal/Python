@@ -1,0 +1,5 @@
+1.jarvis virtual assitant
+2.love calculator
+3.face recognation
+4.flappy bird game
+5.python based snack game

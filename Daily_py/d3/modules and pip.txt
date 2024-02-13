@@ -1,0 +1,4 @@
+can ude others code on your pc using modules...is liye use krtyh hain k har eik cheez ko scrach sy code ni kry gy(car avarage example) well tested. time bacy ga
+2 types: (1)Built in (2)External
+External:wo code hota ha jo logo ny likha hota ha or wo chahty hain k ap un k code ko apny python program ma use kr sko(code ni pta but use kr pa rha hu).
+Built in:asy code hoty hain jo python programming language k satgh ship hoty hain...no need to install Externalaly.

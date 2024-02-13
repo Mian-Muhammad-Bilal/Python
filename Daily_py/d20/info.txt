@@ -1,0 +1,3 @@
+functions in python:
+built in
+User defined

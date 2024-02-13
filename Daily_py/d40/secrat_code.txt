@@ -1,0 +1,3 @@
+Encoding and encoding program
+Encoding: if the given string is greater than 2 characters then take the first character and append it to the end of the string and add three random charactersat the end and srating of the string
+decoding: juat the reverse of the encoding

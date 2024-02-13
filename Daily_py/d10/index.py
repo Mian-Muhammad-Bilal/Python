@@ -1,0 +1,15 @@
+# a = input()
+# print(a)
+# b = input("enter your name")
+# print(b)
+# x = input("enter first number:")
+# y = input("enter second number:")
+# print(x+y)
+
+x = input("enter first number:")
+y = input("enter second number:")
+print(int(x)+float(y))
+
+# x = input("enter first number:")
+# y = input("enter second number:")
+# print(x*y)

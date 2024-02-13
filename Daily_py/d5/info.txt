@@ -1,0 +1,3 @@
+comments: #,'''cc'''
+Escape sequences:any inprintable characters followed by a backslash like: \",\n,\r,\n
+print statements:can print multiple statements saperated by a coma 

@@ -1,0 +1,5 @@
+docstrings and pep 8
+docstrings: fuction ko smjny ma madad krti...comment sy alag hoti ha
+should be just after func name
+
+pep8:btata ha k kis trha eik acha pyhon program likha jay...rules hain bss

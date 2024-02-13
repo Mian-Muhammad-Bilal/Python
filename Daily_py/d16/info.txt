@@ -1,0 +1,4 @@
+Match case statements:
+basically ya switch case he ha but python ma isy match case kehty hain
+python ma case ko if else k sath b use kr skty
+break no exist in python agar koi eik match ho gya to automatically break ho jay ga

@@ -1,0 +1,7 @@
+sets:collection of weldefinied objects
+if lists get super big then use sets
+is ma b wo sab kuch kr skty ho jo list ma kr skty ho in very similar way...bss is ma values repeat ni hoti...koi order ni rakhta
+
+sets{}
+list[]
+tuples()

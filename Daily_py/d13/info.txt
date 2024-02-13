@@ -1,0 +1,3 @@
+string methods
+strings are immutable you can not change the exact string which saved in a variable(cant change the value of a variable)
+nai copy bna skta hu...nai string milti ha using function(mehtons)purani change ni hoti...existing string ko change ni kry ga

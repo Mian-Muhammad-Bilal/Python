@@ -1,0 +1,2 @@
+python is a dynamic typed object oriented programming language
+made by Duido van Rossum in 1989-1991 and named while watching vonti python show.

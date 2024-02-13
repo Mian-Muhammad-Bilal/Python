@@ -1,0 +1,1 @@
+string formating:f strings: exist in python from 3.6

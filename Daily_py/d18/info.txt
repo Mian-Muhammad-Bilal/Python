@@ -1,0 +1,3 @@
+loops:
+while loop:# can use else with while
+do while loop ni hota python ma

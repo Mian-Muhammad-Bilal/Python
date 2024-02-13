@@ -1,0 +1,11 @@
+typecasting:chaning one datatype to another datatype
+2 types: Explicit conversion(by programmer) and Implicit conversion(automatically by python, lower order datatype to higher order datatype)
+functions of typecasting
+str()
+ord()
+hex()
+oct()
+tuple()
+set()
+list()
+dict()
