@@ -1,0 +1,85 @@
+import os
+import re
+
+
+# Function to check if a file exists
+def file_exists(file_path):
+  return os.path.exists(file_path)
+
+
+# Function to count the number of lines in the file
+def count_lines(file_content):
+  return len(file_content.split('\n'))
+
+
+# Function to count the number of words in the file
+def count_words(file_content):
+  words = file_content.split()
+  return len(words)
+
+
+# Function to extract and display all email addresses from the file
+def extract_emails(file_content):
+  emails = re.findall(
+      r'http[s]?://(?:[a-zA-Z]|[0-9]|[$-_@.&+]|[!*\\(\\),]|(?:%[0-9a-fA-F][0-9a-fA-F]))+',
+      file_content)
+  return emails
+
+
+# Function to extract and display all URLs from the file
+def extract_urls(file_content):
+  urls = re.findall(r'http[s]?://', file_content)
+  return urls
+
+
+# Function to search for specific keywords or phrases in the file
+def search_keywords(file_content, keyword):
+  keyword_count = file_content.lower().count(keyword.lower())
+  return keyword_count
+
+
+# Main function
+def main():
+  file_path = input("Enter the path to the text file: ")
+
+  # if file_exists(file_path):
+  with open(file_path, 'r') as file:
+    file_content = file.read()
+
+  while True:
+    print("\nParsing Options:")
+    print("1. Count the number of lines in the file")
+    print("2. Count the number of words in the file")
+    print("3. Extract and display all email addresses from the file")
+    print("4. Extract and display all URLs from the file")
+    print("5. Search for specific keywords or phrases in the file")
+    print("6. Exit")
+
+    choice = input("Enter your choice (1/2/3/4/5/6): ")
+
+    if choice == '1':
+      print("Number of lines in the file:", count_lines(file_content))
+    elif choice == '2':
+      print("Number of words in the file:", count_words(file_content))
+    elif choice == '3':
+      emails = extract_emails(file_content)
+      print("Email addresses in the file:")
+      for email in emails:
+        print(email)
+    elif choice == '4':
+      urls = extract_urls(file_content)
+      print("URLs in the file:")
+      for url in urls:
+        print(url)
+    elif choice == '5':
+      keyword = input("Enter the keyword or phrase to search for: ")
+      count = search_keywords(file_content, keyword)
+      print(f'Occurrences of "{keyword}" in the file:', count)
+    elif choice == '6':
+      break
+    else:
+      print("Invalid choice. Please select a valid option.")
+
+
+# if __name__ == "__main":
+main()

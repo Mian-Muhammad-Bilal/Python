@@ -1,0 +1,49 @@
+Z:\>letters = ['a', 'b', 'c', 'd', 'e', 'f', 'g']
+>>> letters = ['a', 'b', 'c', 'd', 'e', 'f', 'g']
+>>> letters
+['a', 'b', 'c', 'd', 'e', 'f', 'g']
+>>> letters[2:5] = ['C', 'D', 'E']
+>>> letters
+['a', 'b', 'C', 'D', 'E', 'f', 'g']
+>>> letters.append('h')
+>>> letters.append('i')
+>>> letters.append('j')
+>>> letters.append('k')
+>>> len(letters)
+11
+>>> letters
+['a', 'b', 'C', 'D', 'E', 'f', 'g', 'h', 'i', 'j', 'k']
+>>> letters[8:11] = ['C', 'D', 'E']
+>>> letters
+['a', 'b', 'C', 'D', 'E', 'f', 'g', 'h', 'C', 'D', 'E']
+>>> letters[8:11] = ['I', 'J', 'K']
+>>> letters
+['a', 'b', 'C', 'D', 'E', 'f', 'g', 'h', 'I', 'J', 'K']
+>>> letters.append(2)
+>>> letters.append(3)
+>>> letters.append(1)
+>>> letters
+['a', 'b', 'C', 'D', 'E', 'f', 'g', 'h', 'I', 'J', 'K', 2, 3, 1]
+>>> l1=[1,2,3,4,5,6]
+>>> letters.append(l1)
+>>> letters
+['a', 'b', 'C', 'D', 'E', 'f', 'g', 'h', 'I', 'J', 'K', 2, 3, 1, [1, 2, 3, 4, 5, 6]]
+>>> l2=[0,9,8,7]
+>>> l1.append(l2)
+>>> letters
+['a', 'b', 'C', 'D', 'E', 'f', 'g', 'h', 'I', 'J', 'K', 2, 3, 1, [1, 2, 3, 4, 5, 6, [0, 9, 8, 7]]]
+>>> l3=[11,22,33]
+>>> l2.append(l3)
+>>> letters
+['a', 'b', 'C', 'D', 'E', 'f', 'g', 'h', 'I', 'J', 'K', 2, 3, 1, [1, 2, 3, 4, 5, 6, [0, 9, 8, 7, [11, 22, 33]]]]
+>>> ^Z
+
+
+>>> a, b = 0, 1
+>>> while a < 10:
+... ... print(a)
+  File "<stdin>", line 2
+    ... print(a)
+    ^
+IndentationError: expected an indented block after 'while' statement on line 1
+>>> l1.append(l2)
